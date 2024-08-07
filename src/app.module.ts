@@ -4,6 +4,7 @@ import { Cartao } from './cartao/entities/cartao.entities';
 import { Usuario } from './usuario/entities/usuario.entity';
 import { UsuarioModule } from './usuario/usuario.module';
 import { CartaoModule } from './cartao/cartao.module';
+import { AuthModule } from './auth/auth.module';
 
 
 
@@ -20,7 +21,8 @@ import { CartaoModule } from './cartao/cartao.module';
       synchronize: true,
     }),
     UsuarioModule,
-    CartaoModule
+    CartaoModule,
+    AuthModule
   ],
   controllers: [],
   providers: [],
